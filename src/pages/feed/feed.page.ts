@@ -18,7 +18,7 @@ export class FeedPage implements OnInit {
   }
 
   ngOnInit() {
-    this.somaDoisNumeros(15,30);
+    // this.somaDoisNumeros(15,30);
   }
 
 }
