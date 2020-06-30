@@ -9,9 +9,16 @@ export class FeedPage implements OnInit {
 
   public nomeUsuario:string = "Diego Minelli do Código";
 
-  constructor() { }
+  constructor() { 
+    
+  }
+
+  public somaDoisNumeros(): void{
+    alert(15 + 30)
+  }
 
   ngOnInit() {
+    this.somaDoisNumeros();
   }
 
 }
