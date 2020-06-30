@@ -9,6 +9,10 @@ const routes: Routes = [
   {
     path: 'feed',
     loadChildren: () => import('../pages/feed/feed.module').then( m => m.FeedPageModule)
+  },
+  {
+    path: 'intro',
+    loadChildren: () => import('../pages/intro/intro.module').then( m => m.IntroPageModule)
   }
 ];
 @NgModule({
