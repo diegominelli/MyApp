@@ -11,5 +11,4 @@ export class IntroPage implements OnInit {
 
   ngOnInit() {
   }
-
 }
