@@ -13,12 +13,12 @@ export class FeedPage implements OnInit {
     
   }
 
-  public somaDoisNumeros(): void{
-    alert(15 + 30)
+  public somaDoisNumeros(num1:number, num2:number): void{
+    alert(num1 + num2)
   }
 
   ngOnInit() {
-    this.somaDoisNumeros();
+    this.somaDoisNumeros(15,30);
   }
 
 }
